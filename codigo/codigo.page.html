@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning" height= "71">
+      <p style="text-align:right"><img width="175" height="70" src="assets/img/duoc_azul.jpeg"/></p>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<br>
+<br>
+<p style="text-align:center"><ion-label color="warning">Se envió un codigo de confirmacion a tu correo</ion-label></p>
+<br>
+<br>
+<p style="text-align:center"><ion-toolbar color="warning">Ingresa tu código de confirmacion</ion-toolbar></p>
+<p style="text-align:center"> <ion-input color="warning" type="text" placeholder="text here"></ion-input></p> 
+<ion-button class="ion-align-self-center" style="background-color: rgb(252, 252, 252);" (click)="onClick()" color="dark" fill="clear" shape="round" routerLink="/inicio-sesion">
+  ENVIAR
+</ion-button>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title><p style="text-align:center"><img width="180" height="70" src="assets/img/logo-duoc.png"/></p></ion-title>
+  </ion-toolbar>
+</ion-footer>
